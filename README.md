@@ -1,2 +1,1 @@
-# DnD-Game-Tools
-map system, dice roller, etc.
+# DnD Game Tools
