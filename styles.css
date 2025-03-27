@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: white;
+}
+
+#map-container {
+    width: 80%;
+    height: 400px;
+    margin: 20px auto;
+    border: 2px solid white;
+    background: url('assets/map.png') center/cover no-repeat;
+    position: relative;
+}
+
+.token {
+    width: 30px;
+    height: 30px;
+    background: red;
+    position: absolute;
+    cursor: grab;
+    border-radius: 50%;
+}
+
+#dice-roller {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #666;
+}
