@@ -1,0 +1,32 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D&D Map & Dice Roller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>D&D Map System & Dice Roller</h1>
+    
+    <!-- Map System -->
+    <div id="map-container">
+        <div id="map" class="map-area"></div>
+    </div>
+    <button onclick="addToken()">Add Token</button>
+    
+    <!-- Dice Roller -->
+    <div id="dice-roller">
+        <button onclick="rollDice(4)">Roll d4</button>
+        <button onclick="rollDice(6)">Roll d6</button>
+        <button onclick="rollDice(8)">Roll d8</button>
+        <button onclick="rollDice(10)">Roll d10</button>
+        <button onclick="rollDice(12)">Roll d12</button>
+        <button onclick="rollDice(20)">Roll d20</button>
+        <button onclick="rollDice(100)">Roll d100</button>
+        <div id="dice-log"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
